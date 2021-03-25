@@ -1,0 +1,27 @@
+.imageContainer {
+  margin: auto;
+  width: 70%;
+
+  padding: 10px;
+  background-color: white;
+}
+
+.nasaImage {
+  margin: 20px;
+  height: 300px;
+  border: 5px solid rgb(172, 6, 6);
+}
+
+@media screen and (max-width: 800px) {
+  .nasaImage {
+    height: 200px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .imageContainer {
+    max-width: 300px;
+    padding: 0%;
+  }
+}
